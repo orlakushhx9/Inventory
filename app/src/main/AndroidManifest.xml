@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,17 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InventorySystem"
         tools:targetApi="31">
-        <activity
 
+        <!-- Registro -->
+        <activity
+            android:name=".activity_register"
+            android:exported="false"
+            android:label="Registro" />
+
+
+        <!-- Login -->
+        <activity
             android:name=".ui.login.LoginActivity"
             android:exported="true"
             android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Principal -->
         <activity
             android:name=".MainActivity"
             android:exported="false" />
