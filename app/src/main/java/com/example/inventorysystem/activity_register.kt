@@ -47,8 +47,6 @@ class activity_register : AppCompatActivity() {
                 // Aquí puedes guardar los datos en SharedPreferences, base de datos o enviar a servidor
                 Toast.makeText(this, "Registro exitoso", Toast.LENGTH_SHORT).show()
 
-
-
                 // Termina la actividad y regresa a la anterior (por ejemplo, Login)
                 finish()
             }
