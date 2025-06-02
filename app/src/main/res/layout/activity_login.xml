@@ -43,7 +43,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <!-- boton de registro agregado -->
+    <!-- boton de registro agregado en login -->
     <EditText
         android:id="@+id/password"
         android:layout_width="0dp"
