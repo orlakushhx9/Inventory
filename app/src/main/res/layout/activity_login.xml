@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="Sistema de inventario"
+        android:text="@string/sistema_de_inventario"
         android:fontFamily="@font/oswald"
         android:textColor="@color/white"
         android:textSize="34sp"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <!-- boton de registro agregado -->
+    <!-- boton de registro agregado a git -->
     <EditText
         android:id="@+id/password"
         android:layout_width="0dp"
