@@ -11,4 +11,5 @@
     <string name="login_failed">"Login failed"</string>
     <string name="registrate">Registrate</string>
     <string name="Inicia_sesi_n">Inicia sesión</string>
+    <string name="sistema_de_inventario">Sistema de inventario</string>
 </resources>
