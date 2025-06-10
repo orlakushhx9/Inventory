@@ -16,7 +16,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.inventorysystem.MainActivity
 import com.example.inventorysystem.databinding.ActivityLoginBinding
 import com.example.inventorysystem.R
-import com.example.inventorysystem.activity_register // Asegúrate que esta importación sea correcta
+import com.example.inventorysystem.activity_register
 
 class LoginActivity : AppCompatActivity() {
 
